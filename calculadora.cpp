@@ -39,7 +39,7 @@ int main() {
             cout << "Ingrese el primer numero: ";
             cin >> a;
             cout << "\nIngrese el segundo numero: ";
-            cin >> b
+            cin >> b;
         }
 
         switch (opcion) {
