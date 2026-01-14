@@ -36,8 +36,10 @@ int main() {
         cin >> opcion;
 
         if (opcion >= 1 && opcion <= 4) {
-            cout << "Ingrese dos numeros: ";
-            cin >> a >> b;
+            cout << "Ingrese el primer numero: ";
+            cin >> a;
+            cout << "\nIngrese el segundo numero: ";
+            cin >> b;
         }
 
         switch (opcion) {
