@@ -5,6 +5,10 @@ float suma(float a, float b) {
     return a + b;
 }
 
+float restar(float a, float b) {
+    return a - b;
+}
+
 int main() {
     int opcion;
     float a, b;
@@ -29,6 +33,7 @@ int main() {
                 cout << "Resultado: " << suma(a, b) << endl;
                 break;
             case 2:
+                cout << "Resultado: " << restar(a, b) << endl;
                 break;
             case 3:
                 break;
