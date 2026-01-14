@@ -9,6 +9,11 @@ float restar(float a, float b) {
     return a - b;
 }
 
+float multiplicacion(float a, float b) {
+    return a * b;
+}
+
+
 int main() {
     int opcion;
     float a, b;
@@ -36,6 +41,7 @@ int main() {
                 cout << "Resultado: " << restar(a, b) << endl;
                 break;
             case 3:
+                cout << "Resultado: " << multiplicacion(a, b) << endl;
                 break;
             case 4:
 
