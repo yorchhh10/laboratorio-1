@@ -1,6 +1,10 @@
 #include <iostream>
 using namespace std;
 
+float suma(float a, float b) {
+    return a + b;
+}
+
 int main() {
     int opcion;
     float a, b;
@@ -22,6 +26,7 @@ int main() {
 
         switch (opcion) {
             case 1:
+                cout << "Resultado: " << suma(a, b) << endl;
                 break;
             case 2:
                 break;
