@@ -13,6 +13,13 @@ float multiplicacion(float a, float b) {
     return a * b;
 }
 
+float division(float a, float b) {
+    if (b == 0) {
+        cout << "Error: division por cero" << endl;
+        return 0;
+    }
+    return a / b;
+}
 
 int main() {
     int opcion;
@@ -44,7 +51,7 @@ int main() {
                 cout << "Resultado: " << multiplicacion(a, b) << endl;
                 break;
             case 4:
-
+                cout << "Resultado: " << division(a, b) << endl;
                 break;
             case 5:
                 cout << "Saliendo...\n";
